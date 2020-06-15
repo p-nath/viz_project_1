@@ -1,7 +1,7 @@
 ## Videogame Dataset Visualization
 
 
-[Vizualization Demo](​https://youtu.be/J2BHoFvJCpk)
+[Vizualization Demo](https://youtu.be/J2BHoFvJCpk)
 
 ## About the Project
 
