@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   		<title> Videogame Dataset Visualization </title>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+      <script src="/d3-tip-master/d3-tip.js"></script>
+      
+      <link rel="stylesheet" href="style.css"> <!-- referenced from w3 schools -->
+      <script src="start_script.js"></script>
+      <script src="plot_bar.js"></script>
+      <script src="plot_histogram.js"></script>
+   </head>
+
+   <body>
+   		<h1> Videogame Dataset Visualization </h1>
+
+   		<!-- navigation bar -->
+   		<div class="navbar" id="nav">
+        <div class="dropdown" id="num">
+          <button class="dropbtn"> Numerical Features
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="num_content">
+          </div>
+        </div>
+
+        <div class="dropdown" id="cat">
+          <button class="dropbtn"> Categorical Features
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="cat_content">
+          </div>
+        </div> 
+
+<!-- <a href="#home">Home</a> -->
+      </div>
+
+   		<div id="graph_plot">
+        <svg> </svg> 
+      </div>
+
+
+
+   </body>
+
+   <script type="text/javascript">
+      
+  populateNavigationBar();
+  // plot()
+    
+  
+   </script>
+
+ </html>
